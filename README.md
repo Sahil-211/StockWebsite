@@ -1,7 +1,7 @@
 # Overview of StockWebsite
 This project uses ReactJS which I used to create two React elements. One element makes a graph of a chosen stock using the plotly extension in
 ReactJS. This creates a graph by gathering stock prices and dates using an API. The data is JSON format and we take that data, put it into a array and use it with
-plotly to create a graph. This element is called with the line                 <div id="NewsList"></div> in grid 1 in the Home.html
+plotly to create a graph. This element is called with the line '''<div id="NewsList"></div>'''in grid 1 in the Home.html
 
 The second React element uses another API to gather current news about the stock that is chosen. Then the news title and corresponding link is put into a list of
 cards that can be scrolled through. This is called in grid 2 using " <div id="NewsList"></div> " in Home.html
