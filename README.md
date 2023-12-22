@@ -4,7 +4,9 @@ ReactJS. This creates a graph by gathering stock prices and dates using an API. 
 plotly to create a graph. This element is called with the line ```<div id="NewsList"></div>```in grid 1 in the Home.html
 
 The second React element uses another API to gather current news about the stock that is chosen. Then the news title and corresponding link is put into a list of
-cards that can be scrolled through. This is called in grid 2 using " <div id="NewsList"></div> " in Home.html
+cards that can be scrolled through. This is called in grid 2 using ```<div id="NewsList"></div>``` in Home.html
+
+The build folder contains the production version of the code for creating the stocks graph (build command detailed below) and the NewsBuild folder contains the one for the list of news. These build folders are a result of running the build command in a React app folder.
 
 # Getting Started with Create React App
 
