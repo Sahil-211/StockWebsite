@@ -8,6 +8,8 @@ cards that can be scrolled through. This is called in grid 2 using ```<div id="N
 
 The build folder contains the production version of the code for creating the stocks graph (build command detailed below) and the NewsBuild folder contains the one for the list of news. These build folders are a result of running the build command in a React app folder.
 
+To run correctly run everything you will need the NewsBuild, build, public, and src folders. You will also need the Home.html, about.html, package-lock.json, package.json, script.js, and styles.js all in a folder and then you can open Home.html in Chrome or another browser.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
